@@ -4,11 +4,11 @@
 #
 ################################################################################
 
-SBE_VERSION ?= 374add4ab977460d1793ddcfa64548732c4cbe18
+SBE_VERSION ?= 783b420403b7d649b38ffd4772dc422499914449
 SBE_SITE ?= $(call github,open-power,sbe,$(SBE_VERSION))
 
 SBE_LICENSE = Apache-2.0
-SBE_DEPENDENCIES = host-ppe42-gcc
+SBE_DEPENDENCIES = host-ppe42-gcc hcode
 
 SBE_INSTALL_IMAGES = YES
 SBE_INSTALL_TARGET = NO
